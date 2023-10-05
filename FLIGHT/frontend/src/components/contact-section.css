@@ -1,0 +1,44 @@
+/* Style for the contact section container */
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  /* Style for each individual section */
+  .call-us,
+  .feedback,
+  .chat-with-us {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+
+  
+  /* Style for section headings */
+  h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Style for section descriptions */
+  p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for section links */
+  a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for links */
+  a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,201 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.my-flights.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+
+}
+.my-form {
+  background-color: #fff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 0px 10px rgba(21, 100, 142, 0.2) !important;
+  padding: 20px !important;
+  margin-top: 50px !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+  
+}
+
+.my-form h1 {
+  text-align: center !important;
+  margin-bottom: 20px !important;
+}
+
+.form-group {
+  margin-bottom: 20px !important;
+}
+
+
+.form-label {
+  font-weight: bold !important;
+}
+
+
+.form-control {
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  padding: 10px !important;
+  width: 100% !important;
+  transition: border-color 0.2s !important;
+}
+
+
+.my-form.form-control:focus {
+  border-color: #007bff !important;
+}
+
+.my-form.btn-primary {
+  background-color: #007bff !important;
+  border: none !important;
+}
+
+.my-form.btn-primary:hover {
+  background-color: #0056b3 !important;
+}
+
+
+.my-form.btn-primary span {
+  color: #fff !important;
+}
+
+
+.my-form.row {
+  margin-bottom: 15px !important; 
+}
+
+.my-form.container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 25vh !important;
+}
+
+.flight-card {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 5px !important;
+  transform-style: preserve-3d;
+  transition: transform 0.2s !important;
+}
+
+.flight-card:hover {
+  transform: translateY(-5px) !important;
+}
+
+.flight-name {
+  font-size: 24px !important;
+  margin-bottom: 10px !important;
+}
+
+.card-text {
+  font-size: 18px !important;
+  margin-bottom: 5px !important;
+}
+
+
+.card-title {
+  font-weight: bold !important;
+}
+
+
+.card-body::before {
+  content: '';
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0!important;
+  bottom: 0 !important;
+  border: 1px solid rgba(18, 17, 17, 0.1) !important;
+  border-radius: 10px !important;
+  pointer-events: none !important;
+}
+
+
+.text {
+  background-color: white !important;
+  color: #0f0505 !important;
+  
+}
+
+.text h2 {
+  color: #0f0e0c !important; 
+}
+
+.text-section {
+  margin-bottom: 20px !important;
+  padding: 5px;
+}
+
+.text p {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  padding: 5px;
+}
+
+
+.flight-heading{
+  font-size: larger;
+  font-weight: bold;
+  
+}
+.flight-detail{
+  font-size: larger;
+  font-family:'Times New Roman', Times, serif
+}
+
+.style3dform{
+  transform-style: preserve-3d;
+  border-radius: 30px;
+  padding: 1rem 1rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  background-image: url("C://Users//MANAV BHAVSAR//OneDrive//Desktop//FLIGHT//frontend//src//cimages//bg.jpg");
+}
+.style3d{
+  transform-style: preserve-3d;
+  border-radius: 30px;
+  padding: 1rem 1rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+
+}

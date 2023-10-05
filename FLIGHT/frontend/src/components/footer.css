@@ -1,0 +1,42 @@
+/* Customize the footer styles */
+.footer {
+    background-color: #000000 !important;
+    color: #fff !important;
+    padding: 40px 0 !important;
+    padding-left: 10px !important;
+  }
+  
+  .footer h3 {
+    font-size: 18px !important;
+    margin-top: 0 !important;
+    color: #f39c12 !important;
+  }
+  
+  .footer ul {
+    list-style: none !important;
+    padding: 0 !important;
+  }
+  
+  .footer ul li {
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+    cursor: pointer !important;
+    transition: color 0.2s !important;
+  }
+  
+  .footer ul li:hover {
+    color: #f39c12 !important; /* Customize hover color */
+  }
+  
+  .footer-bottom {
+    margin-top: 20px !important;
+    text-align: center !important;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+  
+  /* Add more custom styles to achieve the desired appearance */
+  

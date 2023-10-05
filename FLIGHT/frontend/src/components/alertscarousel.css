@@ -1,0 +1,21 @@
+/* Customize the alerts carousel styles */
+.alerts-carousel {
+    margin: 1px 0 !important;
+    padding-top: 1% !important;
+    
+  }
+
+  .alert-item {
+    background-color: #000000 !important;
+    color: #fff !important;
+    padding: 15px !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 10px rgba(9, 9, 9, 0.2) !important;
+    text-align: center !important;
+  }
+  
+  .alert-item p {
+    font-size: 16px !important;
+    margin: 0 !important;
+  }
+  

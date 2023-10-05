@@ -1,0 +1,21 @@
+.parent {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .slider {
+    margin:0 10px;
+    overflow:"hidden";
+    padding:2rem 0;
+  }
+  
+  .slider img {
+    width: 100%;
+    border-radius:10px;
+  }
+  
+  .react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+  }
+  

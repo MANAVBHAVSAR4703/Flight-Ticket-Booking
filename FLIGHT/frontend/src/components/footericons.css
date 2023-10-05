@@ -1,0 +1,23 @@
+/* Customize the footer styles */
+
+  
+  .footericons p {
+    font-size: 19px  !important; 
+    margin: 0  !important;
+
+  }
+  
+  .footericons-item {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    padding-right: 100px;
+  }
+  
+  .footericons-icon {
+    font-size: 36px !important;
+    margin-bottom: 10px !important;
+    color: #f39c12 !important; /* Customize icon color */
+  }
+  
+  /* Add more custom styles to achieve the desired appearance */
+  
